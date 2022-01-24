@@ -1,5 +1,5 @@
 let color = "pink"
-let color2 = "hahahahaha"
+    color ="black"
 
-console.log(color,color2)
+console.log(color)
 
