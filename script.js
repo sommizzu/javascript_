@@ -1,4 +1,4 @@
-let password = -123.2+1
+let password = true
 
 
 console.log(password)
