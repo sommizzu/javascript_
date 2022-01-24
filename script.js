@@ -1,5 +1,5 @@
-let color = "pink"
-    color ="black"
+const password = "pink"
+password = "black"
 
-console.log(color)
+console.log(password)
 
