@@ -1,35 +1,8 @@
+console.log(a) //a가 선언되기 전에 에러가 뜸 (다른언어는)
+//undefined 이라고 값이 나옴
+var a = 1
+console.log(a)
 
-let d =1 + 2 * 3 
-let e =(1 + 3) ** 2   
-let f =1 / 0    
-let g =6 % 2    
-let h =7.5 % 2    
-let i =5 == 5   
-let j =5 === 5 
-let k =5 == "5" 
-let l =5 === "5"
-let m =5 != 5.0 
-let n =5 !== 5.0 
-let o ="true" === true 
-let p =5 <= 5.0
-let q =5 >= 5 
-let r =true || true 
-
-console.log(d)
-console.log(e)
-console.log(f)
-console.log(g)
-console.log(h)
-console.log(i)
-console.log(j)
-console.log(k)
-console.log(l)
-console.log(m)
-console.log(n)
-console.log(o)
-console.log(p)
-console.log(q)
-console.log(r)
-
+//이렇게 되는 이유 var a=1을 먼저보고 변수값을 저장해둔 다음에 1행 부터 실행되는 것이기 때문
 
 
